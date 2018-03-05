@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.03.04., 12:35:15
+    Author     : Eszti
+*/
+body{
+
+    background-image:url("../img/háttér.jpg");
+    width:100%;
+}
+#body{
+    width: 90%;
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#logo {
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.menu {
+    float: right;
+    margin-right: 30px;
+    margin-top: 60px;
+
+}
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    height: 30px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.1em
+}
+a   {
+    text-decoration: none;
+}
+
+#elvalaszto {
+    width: 30%;
+    display: block;
+    padding-top: 50px;
+    margin: 0px auto;   
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+h1 {
+    font-family: 'Clicker Script', cursive;
+    font-size: 3em;
+    line-height: 0.9;
+    margin: 0;
+    padding: 0;	
+    color: #bd8aab;
+    float: right;
+    width: 30%
+}
+h2 {
+    font-family: 'Clicker Script', cursive;
+    font-size: 4em;
+    color: #882965;
+    font-weight: normal;
+    text-align: center;
+
+}
+h3 {
+    font-family: 'Clicker Script', cursive;
+    color: #882965;
+    font-size: 24px;
+
+}
+.vonal {
+    border-bottom: 1px solid silver;
+    margin-left: 160px;
+    margin-right: 40px;
+}
+.velemenyek {
+    height:150px;
+    margin:30px 20px 30px 160px;
+}
+.kep {
+    float:left;
+    width: 140px;
+    height: auto;
+    margin: 20px 20px 0 0;
+    border-radius: 140px;
+    border: 3px solid whitesmoke;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.szoveg {
+    float:left;
+    font-family:'Roboto', sans-serif;
+    color:#763f77;
+    width:80%;
+    text-align:justify;
+
+}
+#disz {
+    float:left;
+    width: 140px;
+}
+
+#csokor {
+    width: 30%;
+    display: block;
+    padding-top: 50px;
+    margin: 0px auto; 
+}
+footer{
+    text-align:center;
+    font-family:'Clicker Script', cursive;
+    font-size:40px;
+    font-weight: normal;
+    margin:20px 300px 20px 300px;
+    padding:5px;
+    color:#763f77;
+}
