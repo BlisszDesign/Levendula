@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.03.10., 19:04:24
+    Author     : Eszti
+*/
+html,body {
+    margin:0px;
+    height:100%;
+}
+#szin1, #szin2, #szin3, #szin4, #kep1, #kep2, #kep3, #kep4, #kep5 {
+    width:33.33%;
+    height:33.33%;
+    float:left;
+}
+#kep1, #kep2, #kep4, #kep5 {
+    opacity:0.5;
+    background-size:cover;
+    background-position:center;
+}
+#kep1:hover, #kep2:hover, #kep4:hover, #kep5:hover{
+    opacity:1;
+}
+#kep3:hover {
+    opacity:0.5;
+}
+#kep3 {
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+}
+#szin1 {
+    background-color: #49962C;
+}
+
+#szin2 {
+    background-color: #862A3F;
+}
+#szin3 {
+    background-color: #32281F;
+}
+#szin4 {
+    background-color: #778A3E;
+}
+#kep1 {
+    background-image: url("../img/csokor.jpg")
+}
+#kep2 {
+    background-image: url("../img/liliom.jpg")
+}
+#kep3 {
+    background-image: url("../img/virag.jpg")
+}
+#kep4 {
+    background-image: url("../img/rozsa.jpg")
+}
+#kep5 {
+    background-image: url("../img/tulipan.jpg")
+}
+
